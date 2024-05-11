@@ -1,0 +1,53 @@
+--19K-1043 TASK LAB-09
+
+CREATE TABLE Person (
+ID int NOT NULL,
+Name varchar (50) NOT NULL,
+PreviousName varchar (50) NULL,
+SameNameCount int NULL,
+CONSTRAINT pk_Person PRIMARY KEY (ID)
+);
+
+CREATE OR REPLACE TRIGGER
+person_prev_name_trigger 
+BEFORE UPDATE OF
+NAME ON PERSON 
+
+FOR EACH ROW
+BEGIN
+
+:NEW.PREVIOUSNAME := :OLD.NAME;
+
+END;
+
+Insert into Person Values(1, 'salman', '', 0);
+Update Person set name = 'ahmed';
+Select * from Person;
+
+CREATE OR REPLACE TRIGGER
+person_triger
+before
+UPDATE OR
+DELETE OR
+INSERT ON PERSON
+
+FOR EACH ROW
+
+BEGIN
+
+IF (:NEW.NAME = :OLD.NAME)
+THEN
+
+:NEW.SAMENAMECOUNT := :NEW.SAMENAMECOUNT + 1;
+
+END IF;
+
+END;
+
+Insert into Person Values(4, 'ALI', '', 0);
+Insert into Person Values(5, 'ALI', '', 0);
+Update Person set name = 'ALI' where id = 5;
+
+
+
+Select * from person;

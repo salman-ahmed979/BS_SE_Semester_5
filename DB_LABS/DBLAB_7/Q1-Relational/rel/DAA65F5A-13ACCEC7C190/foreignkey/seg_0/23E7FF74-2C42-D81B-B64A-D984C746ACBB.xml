@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="23E7FF74-2C42-D81B-B64A-D984C746ACBB" containerWithKeyObject="BA6E8B42-FE11-398E-BE00-75B1EC23D0BF" localFKIndex="705A9B51-816B-ED7F-9824-F039C55FD649" name="Author_Paper_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>F6AED4D4-C381-DE7D-E69B-923B75B52F01</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<referredTableLongName>Paper</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D0851B0C-7E22-973E-A1B9-C29BA3E91175</referredTableID>
+<keyObject>4964F4C6-2404-25CD-CE04-40096FF19AA9</keyObject>
+<referredKeyID>4964F4C6-2404-25CD-CE04-40096FF19AA9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Paper_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

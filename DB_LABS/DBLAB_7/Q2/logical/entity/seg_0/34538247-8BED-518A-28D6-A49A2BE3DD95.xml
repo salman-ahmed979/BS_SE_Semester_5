@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34538247-8BED-518A-28D6-A49A2BE3DD95" name="Course">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:15:20 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CCode" id="FF9D8CDB-BAEB-12BA-4374-C3536E312494">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:15:43 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Credits" id="3D479293-D304-31D4-3D4C-7B01C324EEC3">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:15:57 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CName" id="ACB29879-7F56-8C71-0C83-972D1408A335">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:16:38 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Level" id="3DD68D97-3135-ABF4-6244-AE3AEB260F97">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:16:52 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CDesc" id="2D9BD1B5-3AFE-793D-B875-B290C23DEC92">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:17:06 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DName" id="07E9B3E6-0568-75CD-5E70-75DACE1BFABA">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:33:02 UTC</createdTime>
+<generatorID>F97C63D8-51AE-5F2E-218C-917A38057436</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<referedAttribute>00E720BF-A826-8170-3999-A210CBC3523A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DCode" id="E7089BFF-53B7-9731-1AC5-A4445D350F5E">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:33:02 UTC</createdTime>
+<generatorID>F97C63D8-51AE-5F2E-218C-917A38057436</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<referedAttribute>6FF095CE-ADF5-BC29-5434-5D7BFC5D79A0</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SecId" id="381C3EF9-B6B3-2E1F-5838-9CAA23EBF9F5">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:38:03 UTC</createdTime>
+<generatorID>9CA1CC4E-554C-015E-87ED-B32BD2100CAC</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>235359A2-DE0E-249F-DF7F-F62246B25F00</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C210485-E07E-8922-1611-F59F0CD339BF" name="Course PK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:15:53 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF9D8CDB-BAEB-12BA-4374-C3536E312494</attributeRef>
+<attributeRef>ACB29879-7F56-8C71-0C83-972D1408A335</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

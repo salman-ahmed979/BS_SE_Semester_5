@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD298808-93ED-D51D-3B3B-4E2E51B59068" name="Reviewers">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>E0F617CB-986B-2F71-405B-E9C43175EBFE</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Email_ID" id="F7F08DB0-A84E-7DA5-831A-3262EF30E123">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>A17F781E-2C26-E6C8-D9DB-C5AE42C5E901</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D49EB7-23B0-A13B-B738-36E269A2008A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="C5E6B742-7FAA-E81E-2A20-0FB9AA4F75C6">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>A3A9420B-BD96-A851-43FE-241AB4D24FA2</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="95841BEF-A3BF-0537-5C79-81117254BCEE">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>E07A7A43-BEEB-68E5-30F6-FAFEB8AAA5B6</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PhoneNumber" id="E67DCC44-82E7-0FA0-66A0-B6304A0BE5C9">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>F6D9F9E5-5E6E-E896-7835-0DD0CE138AFD</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6A4FC462-4861-D1D5-90E6-ABE2350846F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Affiliation" id="866B48CE-BFE3-1B2E-64C4-EA469B803849">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>BC9CF306-338D-3BD3-3DDB-CB5DEF225A5E</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="interestTopic" id="E6449C0F-F112-3948-2E1A-D59F52850A4B">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>AFA74DAA-E361-3A1F-248C-D01579B7D943</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C1035F0-E99C-2CC1-DC77-BA130EFCEC55</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E53AA224-281A-A3CC-4241-69CE2C4BE432" name="Reviewers_PK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>414C4184-2D9C-51A1-5D96-7E5BFA1EA875</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7F08DB0-A84E-7DA5-831A-3262EF30E123"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

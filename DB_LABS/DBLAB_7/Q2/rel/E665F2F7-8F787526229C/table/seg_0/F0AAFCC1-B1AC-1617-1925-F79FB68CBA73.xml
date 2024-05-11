@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0AAFCC1-B1AC-1617-1925-F79FB68CBA73" name="Chair">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>96319C9C-4A1D-91F0-8E0D-9B66ACF6A2CD</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CStartDate" id="C5058F32-8330-444A-6094-0D9DA93E3111">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>00324A18-8109-AD96-0ECE-7AEF2199A3B8</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dept_DName" id="DE7AC8E5-D192-B337-B4C5-25CB4266929C">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>40BCE226-AC22-8C75-C633-0F0FC3EA0B9C</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E7C1C76-4AA0-A9FE-7E6B-CCB184B12F2A" referredColumn="0E553000-0103-51F0-445C-FB3C1BAA8CC5"/>
+</associations>
+</Column>
+<Column name="Dept_DCode" id="1E700613-A697-CB33-CA47-04BD00450BD0">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>10E75353-FC7B-E017-200D-7FB0A77BAF84</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E7C1C76-4AA0-A9FE-7E6B-CCB184B12F2A" referredColumn="1C997F73-A04F-0B40-03A7-BE1F510471F6"/>
+</associations>
+</Column>
+<Column name="Instructor_Id" id="4422B73F-B808-C4F7-E93D-8A93ADBD23DE">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>110B1E25-5AC3-E379-D327-C313388A83D8</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFA28FAC-F59B-D927-02FD-37E8A36AFC2C" referredColumn="5392D35D-0104-07F0-998E-90F8FF7BE23C"/>
+</associations>
+</Column>
+<Column name="Instructor_SecId" id="7A59199D-4CD8-A051-7776-978C36EB2749">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>45B38D27-61AD-FEFA-BB4C-B06A323D36D4</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFA28FAC-F59B-D927-02FD-37E8A36AFC2C" referredColumn="BD87305A-AA34-162E-A85A-4B7BF81E8750"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC82FA2F-CA4D-CAC9-B47C-A205F149C0D2" name="Chair__IDX">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>27F95C86-AC1D-9DED-6349-EE2363EE4C63</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DE7AC8E5-D192-B337-B4C5-25CB4266929C"/>
+<colUsage columnID="1E700613-A697-CB33-CA47-04BD00450BD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C224D5F5-8C9C-171D-2174-44BC55045266" name="Chair__IDXv1">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5B4AECCB-9156-4E35-B4CC-BA10837E60C7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4422B73F-B808-C4F7-E93D-8A93ADBD23DE"/>
+<colUsage columnID="7A59199D-4CD8-A051-7776-978C36EB2749"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC0C7F80-139F-6468-382C-84276A8E990A" name="Chair_Dept_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>27F95C86-AC1D-9DED-6349-EE2363EE4C63</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE7AC8E5-D192-B337-B4C5-25CB4266929C"/>
+<colUsage columnID="1E700613-A697-CB33-CA47-04BD00450BD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C9BBDFF-D25A-2ED0-9241-5F999BADF2B9" name="Chair_Instructor_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>5B4AECCB-9156-4E35-B4CC-BA10837E60C7</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4422B73F-B808-C4F7-E93D-8A93ADBD23DE"/>
+<colUsage columnID="7A59199D-4CD8-A051-7776-978C36EB2749"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

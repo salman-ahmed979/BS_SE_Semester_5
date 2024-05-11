@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E772D7A-78B0-15C1-5147-B350C7C93A48" containerWithKeyObject="897233A4-EA4A-32DD-776E-606E9D37FE1C" localFKIndex="ECFEB127-32B1-8D2C-E579-99FE0D1F6702" name="Take_Takes_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:02 UTC</createdTime>
+<generatorID>8BA2ABFB-A874-24CC-7E35-8F46CE2B8082</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<referredTableLongName>Takes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C368E337-9B11-3DE9-5D4D-92FBA46C0E40</referredTableID>
+<keyObject>32A4521D-3DF3-889C-DA0F-B56055921E04</keyObject>
+<referredKeyID>32A4521D-3DF3-889C-DA0F-B56055921E04</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Takes_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

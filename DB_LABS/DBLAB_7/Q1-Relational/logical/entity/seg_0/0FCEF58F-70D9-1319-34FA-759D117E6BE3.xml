@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0FCEF58F-70D9-1319-34FA-759D117E6BE3" name="Author">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 14:47:10 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Email_ID" id="B84FFFCC-3DFF-8259-1886-4219D4EA9803">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 14:47:47 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D49EB7-23B0-A13B-B738-36E269A2008A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First_Name" id="80EEFB0E-FD52-E8AC-D205-037EC4A48E30">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 14:48:11 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last_Name" id="F36FB474-B759-4A16-1379-C5403097EAA2">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 14:48:30 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Paper_Id" id="420F94A7-AC84-2B52-40B9-667CD58AF315">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:18:38 UTC</createdTime>
+<generatorID>F6AED4D4-C381-DE7D-E69B-923B75B52F01</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<referedAttribute>A81C9A3E-AE5A-2124-9560-E6E20896BCF2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A91D443-BD95-3583-6D5D-DF8ECD8D7682" name="Author PK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 14:48:01 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B84FFFCC-3DFF-8259-1886-4219D4EA9803</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

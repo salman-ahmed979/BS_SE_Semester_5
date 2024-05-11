@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0F617CB-986B-2F71-405B-E9C43175EBFE" name="Reviewers">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:21:37 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Email_ID" id="A17F781E-2C26-E6C8-D9DB-C5AE42C5E901">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:22:42 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D49EB7-23B0-A13B-B738-36E269A2008A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First_Name" id="A3A9420B-BD96-A851-43FE-241AB4D24FA2">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:23:07 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last_Name" id="E07A7A43-BEEB-68E5-30F6-FAFEB8AAA5B6">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:23:19 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhoneNumber" id="F6D9F9E5-5E6E-E896-7835-0DD0CE138AFD">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:23:36 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6A4FC462-4861-D1D5-90E6-ABE2350846F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Affiliation" id="BC9CF306-338D-3BD3-3DDB-CB5DEF225A5E">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:23:49 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="interestTopic" id="AFA74DAA-E361-3A1F-248C-D01579B7D943">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:24:10 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C1035F0-E99C-2CC1-DC77-BA130EFCEC55</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="414C4184-2D9C-51A1-5D96-7E5BFA1EA875" name="Reviewers PK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:22:56 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A17F781E-2C26-E6C8-D9DB-C5AE42C5E901</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

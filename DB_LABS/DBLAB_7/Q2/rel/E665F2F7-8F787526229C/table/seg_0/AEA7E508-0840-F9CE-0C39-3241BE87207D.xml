@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEA7E508-0840-F9CE-0C39-3241BE87207D" name="Takev1">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:02 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Takes_Takes_ID" id="3AA488E0-FA4C-3B01-44C7-980A5CB4BF3D">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:02 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF68557D-7458-D5A1-84E8-CDF953107C7F" referredColumn="D9851CE9-0E82-1953-9226-120FDE4E10B8"/>
+</associations>
+</Column>
+<Column name="Student_SID" id="4DF288E5-AD79-4266-399D-9C2C9C2A23AF">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:02 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6606CD79-1C2F-9F76-735D-41318294D745" referredColumn="162AAD07-71BF-EB2E-317E-7059190D66C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF5E0232-9069-7A12-A7C0-51071471978A" name="Takev1_PK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:02 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AA488E0-FA4C-3B01-44C7-980A5CB4BF3D"/>
+<colUsage columnID="4DF288E5-AD79-4266-399D-9C2C9C2A23AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CC04A26-992C-3B8D-5016-FBB69A134F17" name="Takev1_Takes_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:02 UTC</createdTime>
+<generatorID>30E174C2-E78D-284B-33A7-CF0D1CCADB1A</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AA488E0-FA4C-3B01-44C7-980A5CB4BF3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC1FC249-CE49-AC40-2104-BA956DB9E1CF" name="Takev1_Student_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:02 UTC</createdTime>
+<generatorID>30E174C2-E78D-284B-33A7-CF0D1CCADB1A</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DF288E5-AD79-4266-399D-9C2C9C2A23AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

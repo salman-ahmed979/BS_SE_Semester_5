@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D85BA8F-9B82-DFFA-CAC2-7902537C9196" name="Dept">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>386D51CC-4A93-15AE-E681-2AD4B0B49FFB</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DName" id="0E553000-0103-51F0-445C-FB3C1BAA8CC5">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>00E720BF-A826-8170-3999-A210CBC3523A</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DCode" id="1C997F73-A04F-0B40-03A7-BE1F510471F6">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>6FF095CE-ADF5-BC29-5434-5D7BFC5D79A0</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOffice" id="37697A3E-A9E8-511E-567D-9701CFFE9CB7">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>D0817B74-A1FD-DF29-0646-089D77FC40FA</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DPhone" id="CF905A5A-5E27-FFD3-6060-7ECB1AE351C5">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>F31B2929-58B8-2B69-7307-402E639ACA97</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6A4FC462-4861-D1D5-90E6-ABE2350846F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="College_CName" id="494FC4EF-E6E5-5880-FEA5-27CD02BA54B9">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>9CBA7A2E-D918-ACFA-23B9-1D165B05C492</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48831521-AE86-74BD-625E-41AFBD402CC7" referredColumn="242C4E3F-5A0F-02CE-0EFA-D298B84F28D3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DDDDAAE-6C93-AD72-F539-38B6D2B2A85B" name="Dept_PK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>230C8F38-DE44-5973-4816-5851CD23EFF2</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E553000-0103-51F0-445C-FB3C1BAA8CC5"/>
+<colUsage columnID="1C997F73-A04F-0B40-03A7-BE1F510471F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1A21ECB-09D7-A06B-87C8-C55D2F7B373D" name="Dept_College_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>DA886D00-7A30-4416-4B38-1B09DC8CD736</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="494FC4EF-E6E5-5880-FEA5-27CD02BA54B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

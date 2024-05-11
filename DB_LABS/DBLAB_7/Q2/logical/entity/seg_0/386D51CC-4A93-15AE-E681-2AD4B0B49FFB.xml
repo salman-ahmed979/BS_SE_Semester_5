@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="386D51CC-4A93-15AE-E681-2AD4B0B49FFB" name="Dept">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:11:11 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DName" id="00E720BF-A826-8170-3999-A210CBC3523A">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:11:23 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DCode" id="6FF095CE-ADF5-BC29-5434-5D7BFC5D79A0">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:11:39 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOffice" id="D0817B74-A1FD-DF29-0646-089D77FC40FA">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:11:56 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DPhone" id="F31B2929-58B8-2B69-7307-402E639ACA97">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:12:09 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6A4FC462-4861-D1D5-90E6-ABE2350846F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CName" id="9CBA7A2E-D918-ACFA-23B9-1D165B05C492">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:31:27 UTC</createdTime>
+<generatorID>DA886D00-7A30-4416-4B38-1B09DC8CD736</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<referedAttribute>3CE32961-BD35-4FB7-6C67-9497DBF7C1D7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="230C8F38-DE44-5973-4816-5851CD23EFF2" name="Dept PK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:11:35 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00E720BF-A826-8170-3999-A210CBC3523A</attributeRef>
+<attributeRef>6FF095CE-ADF5-BC29-5434-5D7BFC5D79A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

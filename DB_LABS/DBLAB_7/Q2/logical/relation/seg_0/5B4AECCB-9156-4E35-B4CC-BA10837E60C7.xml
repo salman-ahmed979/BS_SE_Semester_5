@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="chairv1" directorySegmentName="seg_0" id="5B4AECCB-9156-4E35-B4CC-BA10837E60C7">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:34:54 UTC</createdTime>
+<ownerDesignName>Q2</ownerDesignName>
+<engineerTo>
+<item key="E665F2F7-EB8B-76C4-7CBF-8F787526229C" value="true"/>
+</engineerTo>
+<sourcePk>DE88147C-CFBD-56A6-DC0C-7A92D9C7CA39</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5EFB647A-7A18-53D5-FDAE-06143D3A2780</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>96319C9C-4A1D-91F0-8E0D-9B66ACF6A2CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

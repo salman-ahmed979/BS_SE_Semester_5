@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0851B0C-7E22-973E-A1B9-C29BA3E91175" name="Paper">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>E3ABB562-68D1-A5CA-6D79-F32749B744C6</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Paper_Id" id="CC4CC0D3-B726-E197-8DCB-A77B591B1635">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>A81C9A3E-AE5A-2124-9560-E6E20896BCF2</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="0EECB0E6-7613-E7B7-A217-952B357FB7DA">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>73FA721E-F1A4-131A-3429-17DA7C4412B8</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C1035F0-E99C-2CC1-DC77-BA130EFCEC55</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Abstract" id="FB71E382-2DF8-5CF6-E6C3-F4F27C633422">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>92F636CE-AC41-E3B6-248A-03A437976B5D</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="File_Name" id="4261BC1A-5198-413F-89B4-D81B33D2B9CB">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>B6C76FBE-2B2E-965E-61B5-779B7F960779</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ContactAuthor" id="39E0DC87-CD03-2491-8BB5-FD08256A551F">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>DD7E03D8-9B3F-D448-0B49-36275AEFEDF0</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4964F4C6-2404-25CD-CE04-40096FF19AA9" name="Paper_PK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>C3BC0764-BEC8-5A1D-6BC4-0FFAE7D108E7</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC4CC0D3-B726-E197-8DCB-A77B591B1635"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

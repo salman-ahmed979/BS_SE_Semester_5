@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reviewed" directorySegmentName="seg_0" id="A0B37D7C-079A-F7BA-79BE-5BBBCC070A49">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:38:26 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<sourcePk>C3BC0764-BEC8-5A1D-6BC4-0FFAE7D108E7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E3ABB562-68D1-A5CA-6D79-F32749B744C6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8CCACE5-E99F-FE44-75BC-7380EBF1918D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

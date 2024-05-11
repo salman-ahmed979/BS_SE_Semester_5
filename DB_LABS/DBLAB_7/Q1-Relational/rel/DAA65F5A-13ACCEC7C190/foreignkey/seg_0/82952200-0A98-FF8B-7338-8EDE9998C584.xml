@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82952200-0A98-FF8B-7338-8EDE9998C584" containerWithKeyObject="07F87514-9946-2AFB-02B8-94DF366FF98B" localFKIndex="B6A0769B-7509-9A87-2C0C-8AA3E035F673" name="Reviews_Reviewers_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>22FECC08-5FA9-BA68-7D00-B1D7FC6C2D49</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<referredTableLongName>Reviewers</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD298808-93ED-D51D-3B3B-4E2E51B59068</referredTableID>
+<keyObject>E53AA224-281A-A3CC-4241-69CE2C4BE432</keyObject>
+<referredKeyID>E53AA224-281A-A3CC-4241-69CE2C4BE432</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Email_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

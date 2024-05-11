@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CBCA084-196A-E93D-6B04-338A689934D7" name="Instructor">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>5EFB647A-7A18-53D5-FDAE-06143D3A2780</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="5392D35D-0104-07F0-998E-90F8FF7BE23C">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>ADAED043-85C8-B63A-983D-C3DEC99EC13D</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rank" id="96263AF8-4DFB-6A18-6ECF-B75F31253E08">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>81DDC89E-A489-7CD3-3326-2C38AD42DBF4</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="28020BAD-BB37-CDE5-779D-51AEF35CAD71">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>E35284A1-59C4-C2A8-FCC2-D9E56809F311</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IOffice" id="84A8B0B2-E1FB-7F13-2A7B-A2625C1E10D2">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>593BCBD4-9D10-51F4-646B-580C0A1A2017</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IPhone" id="AC779128-B8AA-5FCC-358F-92612C9509CA">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>2F7884B5-6E27-0C73-49F0-EB7F7D9544D1</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6A4FC462-4861-D1D5-90E6-ABE2350846F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dept_DName" id="176876BF-1421-09A6-74E0-A46603C999AA">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>075BC9FF-DC47-FE8C-A36F-B14AE0E8A269</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2EF92BC-1EE6-CE64-ACDA-BD1CDBA470F1" referredColumn="0E553000-0103-51F0-445C-FB3C1BAA8CC5"/>
+</associations>
+</Column>
+<Column name="Dept_DCode" id="88D979EE-B67B-3BC3-9FAA-26F3447A10CF">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>7B10E3CA-42BD-047C-D95D-C0DBFBCAF8C4</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2EF92BC-1EE6-CE64-ACDA-BD1CDBA470F1" referredColumn="1C997F73-A04F-0B40-03A7-BE1F510471F6"/>
+</associations>
+</Column>
+<Column name="Section_SecId" id="BD87305A-AA34-162E-A85A-4B7BF81E8750">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>B0BB25F9-E73A-C68E-0057-75DD11682015</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67BE3F7D-7D3D-584F-016B-D3BE37D31346" referredColumn="4EEA1B82-66A9-C547-F0D0-04E92D715376"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55CF90E0-BAAB-B626-FE5F-5BAB2D5CE71F" name="Instructor_PK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>DE88147C-CFBD-56A6-DC0C-7A92D9C7CA39</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5392D35D-0104-07F0-998E-90F8FF7BE23C"/>
+<colUsage columnID="BD87305A-AA34-162E-A85A-4B7BF81E8750"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C8B7207-5E59-2177-8496-814EB241F95A" name="Instructor_Dept_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>CB4265C9-4DB7-655E-1C5B-0425E99B2E47</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="176876BF-1421-09A6-74E0-A46603C999AA"/>
+<colUsage columnID="88D979EE-B67B-3BC3-9FAA-26F3447A10CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13AEA4EE-028D-3A13-578E-D370D08B3B48" name="Instructor_Section_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:02 UTC</createdTime>
+<generatorID>E99898DA-8120-B7A8-F93D-11F33E993CCC</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD87305A-AA34-162E-A85A-4B7BF81E8750"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

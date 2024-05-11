@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3ABB562-68D1-A5CA-6D79-F32749B744C6" name="Paper">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 14:49:33 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Paper_Id" id="A81C9A3E-AE5A-2124-9560-E6E20896BCF2">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 14:49:49 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="73FA721E-F1A4-131A-3429-17DA7C4412B8">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 14:50:07 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C1035F0-E99C-2CC1-DC77-BA130EFCEC55</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Abstract" id="92F636CE-AC41-E3B6-248A-03A437976B5D">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 14:50:26 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="File_Name" id="B6C76FBE-2B2E-965E-61B5-779B7F960779">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 14:52:12 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ContactAuthor" id="DD7E03D8-9B3F-D448-0B49-36275AEFEDF0">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:43:06 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3BC0764-BEC8-5A1D-6BC4-0FFAE7D108E7" name="Paper PK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 14:50:02 UTC</createdTime>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<engineerTo>
+<item key="DAA65F5A-550A-FDD4-B6B0-13ACCEC7C190" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A81C9A3E-AE5A-2124-9560-E6E20896BCF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

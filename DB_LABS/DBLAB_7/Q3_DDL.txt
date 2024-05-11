@@ -1,0 +1,59 @@
+-- Q3 DBLAB 7 (19K-1043)
+
+CREATE TABLE EMPLOYEES(
+	Employee_ID INT,
+	First_Name VARCHAR(25),
+	Last_Name VARCHAR (25),
+	Address VARCHAR (30)
+);
+
+ALTER TABLE EMPLOYEES ADD CONSTRAINT employees_pk PRIMARY KEY(Employee_ID);
+
+CREATE TABLE Customers(
+	Customer_ID INT,
+	Name VARCHAR(25),
+	Product_Name VARCHAR (25),
+	Quantity Number,
+	Address VARCHAR (25),
+	Employee_ID INT NOT NULL
+);
+
+ALTER TABLE Customers ADD CONSTRAINT customers_pk PRIMARY KEY(Customer_ID);
+
+CREATE TABLE Orders(
+	Order_no INT,
+	Quantity Number,
+	Shipped_Date DATE,
+	Received_Date DATE,
+	Customer_ID INT NOT NULL
+);
+
+ALTER TABLE Orders ADD CONSTRAINT orders_pk PRIMARY KEY(Order_no);
+
+CREATE TABLE Products(
+	Product_ID INT,
+	Name VARCHAR(25),
+	Price Number,
+	Stock Number,
+	Employee_ID INT NOT NULL
+);
+
+ALTER TABLE Products ADD CONSTRAINT products_pk PRIMARY KEY(Product_ID);
+
+ALTER TABLE Customers ADD CONSTRAINT customers_employees_fk FOREIGN KEY(Employee_ID) REFERENCES Employees(Employee_ID);
+
+ALTER TABLE Orders ADD CONSTRAINT orders_customers_fk FOREIGN KEY(Customer_ID) REFERENCES Customers(Customer_ID);
+
+ALTER TABLE Products ADD CONSTRAINT products_employee_fk FOREIGN KEY(Employee_ID) REFERENCES Employee(Employee_ID);
+
+
+-- Inserting DATA INTO TABLES
+
+
+INSERT INTO EMPLOYEES VALUES(1, 'SALMAN', 'AHMED', 'A1 KARACHI PAKISTAN');
+
+INSERT INTO Customers VALUES(1, 'SADEEM', 'LAPTOP', 12, 'A2 KARACHI PAKISTAN');
+
+INSERT INTO Orders VALUES(11, 10, '23-JUL-2021', '30-JUL-2021', 1);
+
+INSERT INTO Products VALUES(11, 'LAPTOP', 20211, 200, 1);

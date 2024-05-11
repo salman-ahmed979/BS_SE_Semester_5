@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EB7E03D-2013-C006-9F83-6555146F44B4" name="Student">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>EF7CAC5C-13E1-F841-39E8-935E3011772B</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SID" id="162AAD07-71BF-EB2E-317E-7059190D66C8">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>0DC8E98E-692A-3768-36F4-1B67ED1FA43C</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOB" id="30C83782-6E77-9A76-8EDF-3A007FA7D261">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>C8649511-5050-C910-E717-F3AFA1BFD3A1</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FName" id="B1FE6AF1-E07F-D492-2451-18BEA511B4DD">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>14D98056-8CA1-6EB0-2BFE-363FDCC864E0</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MName" id="B59372BD-F802-1D3C-3269-DFE6DA86F623">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>645CACFE-FEE8-2A1F-2151-94BB348D2C20</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LName" id="A98776A0-5EFF-C305-2CCF-B1052E260385">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>DD68EEB3-112B-F480-F2B1-C02F4572E67B</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Addr" id="DAB53DAA-A9E9-DFD7-5F22-09F1FB5FB3DD">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>76DB0EB5-4DCB-9ECB-50A9-E11D6E74E1DA</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="F5A4B75B-B770-1E78-D327-776900AF70CC">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>D1740BA8-6D72-EA43-86D8-AA7DE8271DC9</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6A4FC462-4861-D1D5-90E6-ABE2350846F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Major" id="8A0C771E-3C61-8D8E-F72F-D87EAD8D349F">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>7C4A66BE-52C5-7F78-7A4D-18F8E238F94C</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C1035F0-E99C-2CC1-DC77-BA130EFCEC55</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dept_DName" id="B8B5B035-6E2A-3A8E-1E6A-E2DB54D161C1">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>9C669075-C5FB-D37D-EDAE-38E2BD4B94F6</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E024842-E081-488E-A4C9-3FEDBBF95821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D55AEC82-8786-8295-E2A2-0A258935283F" referredColumn="0E553000-0103-51F0-445C-FB3C1BAA8CC5"/>
+</associations>
+</Column>
+<Column name="Dept_DCode" id="559F5C9D-DC6C-8E34-D939-D6800F9EE895">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>43615FA2-C998-79E6-5B88-A4AF059A2DBC</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D55AEC82-8786-8295-E2A2-0A258935283F" referredColumn="1C997F73-A04F-0B40-03A7-BE1F510471F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2164F038-02DE-1404-832D-224AC17C40A2" name="Student_PK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>E1360E89-4541-2882-7CE7-44F819248FFF</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="162AAD07-71BF-EB2E-317E-7059190D66C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="569A8BF0-A9D1-14BF-F0D5-527BD1A8AC79" name="Student_Dept_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:01 UTC</createdTime>
+<generatorID>53F662EB-26AD-6D7E-0372-14DF8BCFECCC</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8B5B035-6E2A-3A8E-1E6A-E2DB54D161C1"/>
+<colUsage columnID="559F5C9D-DC6C-8E34-D939-D6800F9EE895"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

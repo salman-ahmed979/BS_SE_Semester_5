@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07F87514-9946-2AFB-02B8-94DF366FF98B" name="Reviews">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>E8CCACE5-E99F-FE44-75BC-7380EBF1918D</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="technical" id="DEAC34BF-C92F-13F9-2D67-695BB8B2DDE2">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>041DBEAC-DD27-4E21-6369-96F6D1CA6AF4</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1A717B37-6F3A-4A19-2409-B0BC704D77B9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="readable" id="A6D4826C-48E9-7F05-0BB5-0F534A004F77">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>3DCDEBD0-974A-AA5A-8857-1D9462A965BC</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1A717B37-6F3A-4A19-2409-B0BC704D77B9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="original" id="33560ED9-3DB8-E4E8-8AB2-4E73AF65D865">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>AAFE2BAD-E990-1C79-8D8F-75DBA3DA0A53</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1A717B37-6F3A-4A19-2409-B0BC704D77B9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="relevance" id="F9F46D16-0549-9BC4-C213-D7833A60CEF1">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>C6BD231F-8B9A-E131-A3DC-B6244229B74C</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1A717B37-6F3A-4A19-2409-B0BC704D77B9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="recomendation" id="6C114EFC-805E-9BBE-E206-D943653683F2">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>82D7E23A-D524-9399-46BA-D24DCC874866</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Commitee_Comment" id="0170A41E-C173-5B9E-CEC3-B7D727D3BA58">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>4F6D1931-1335-1F99-CE09-CB4A57E15926</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="feedback" id="9B16332B-C4F8-6265-249F-15326DD3B48A">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>90F7EE21-A4F8-64EE-19D0-EA83D5725D4E</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paper_Paper_Id" id="F3782A76-26C3-3848-2BD9-62486FE74B2C">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>A066DBB2-B7B4-77F4-69D9-9ED0CF99D184</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>73A6FF98-EB46-B58E-778A-5D1D3AF9C814</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE3E1DFB-0BA0-C77E-202B-A73BD382BBFC" referredColumn="CC4CC0D3-B726-E197-8DCB-A77B591B1635"/>
+</associations>
+</Column>
+<Column name="Reviewers_Email_ID" id="1D32C189-657A-604B-D34C-CDD225453219">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>5EE88933-05C9-0BC0-25C5-BAE2870B843A</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D49EB7-23B0-A13B-B738-36E269A2008A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82952200-0A98-FF8B-7338-8EDE9998C584" referredColumn="F7F08DB0-A84E-7DA5-831A-3262EF30E123"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6A0769B-7509-9A87-2C0C-8AA3E035F673" name="Reviews_Reviewers_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>22FECC08-5FA9-BA68-7D00-B1D7FC6C2D49</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D32C189-657A-604B-D34C-CDD225453219"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE1BAC2D-B6BA-046A-1752-8D01AF3F0AE4" name="Reviews_Paper_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 15:48:42 UTC</createdTime>
+<generatorID>A0B37D7C-079A-F7BA-79BE-5BBBCC070A49</generatorID>
+<ownerDesignName>Q1-Relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3782A76-26C3-3848-2BD9-62486FE74B2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

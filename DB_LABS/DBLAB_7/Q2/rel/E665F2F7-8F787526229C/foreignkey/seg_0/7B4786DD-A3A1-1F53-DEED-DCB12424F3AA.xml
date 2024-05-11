@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B4786DD-A3A1-1F53-DEED-DCB12424F3AA" containerWithKeyObject="897233A4-EA4A-32DD-776E-606E9D37FE1C" localFKIndex="EF51436A-52CD-6DFA-74B4-794373C301F9" name="Take_Section_FK">
+<createdBy>salma</createdBy>
+<createdTime>2021-10-30 16:45:02 UTC</createdTime>
+<generatorID>8BA2ABFB-A874-24CC-7E35-8F46CE2B8082</generatorID>
+<ownerDesignName>Q2</ownerDesignName>
+<referredTableLongName>Section</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1DB0394D-D044-4F64-ABEF-DB05F086373F</referredTableID>
+<keyObject>CC885E9B-A72E-861C-E768-98EA4149145C</keyObject>
+<referredKeyID>CC885E9B-A72E-861C-E768-98EA4149145C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SecId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
